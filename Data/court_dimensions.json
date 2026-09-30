@@ -1,0 +1,22 @@
+{
+  "_source": "ITF Rules of Tennis, Appendix II (Court dimensions), standard hard/generic court",
+  "_units": "feet and inches — converted to centimeters at load time by Python/Core/court_config.py",
+  "_note": "This file is the ONLY place raw official court numbers are typed. Every other file, phase, Blueprint or C++ class must derive values from here (via court_config.py) instead of hardcoding numbers.",
+
+  "court_length_ft": 78.0,
+  "doubles_width_ft": 36.0,
+  "singles_width_ft": 27.0,
+
+  "service_line_distance_from_net_ft": 21.0,
+
+  "net_height_at_center_ft": 3.0,
+  "net_height_at_posts_ft": 3.5,
+  "net_post_offset_from_doubles_sideline_ft": 3.0,
+
+  "line_width_in": 2.0,
+  "baseline_width_in": 4.0,
+  "center_mark_length_in": 4.0,
+
+  "recommended_backcourt_clearance_ft": 21.0,
+  "recommended_sidecourt_clearance_ft": 12.0
+}
