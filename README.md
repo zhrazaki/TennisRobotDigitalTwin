@@ -4,8 +4,9 @@
 ![Python](https://img.shields.io/badge/Python-Editor_Scripting-3776AB?logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Court Standard](https://img.shields.io/badge/Dimensions-ITF_Standard-1B7A43)
+![Status](https://img.shields.io/badge/Status-Actively_Under_Development-F5A623)
 
-A fully procedural tennis court and robot environment for Unreal Engine 5.5, built entirely through the Python Editor Scripting API — no C++, no hand-placed actors. The entire scene (court surface, lines, net, lighting, robot, opponent player, and camera) is generated from a single validated source of ITF dimensions, so any run reproduces the same geometry exactly.
+A fully procedural tennis court and robot environment for Unreal Engine 5.5, built entirely through the Python Editor Scripting API — no C++, no hand-placed actors. The entire scene (court surface, lines, net, lighting, robot, opponent player, and camera) is generated from a single validated source of ITF dimensions, so any run reproduces the same geometry exactly. The project is actively under development; the current milestone is the complete, reproducible scene, with ball physics, robot mobility, and ROS 2 integration planned next (see [Roadmap](#roadmap)).
 
 **Course:** Robotics — School of Electrical and Computer Engineering, University of Tehran
 
@@ -18,7 +19,7 @@ Building robot simulation environments by hand in the Unreal Editor does not sca
 - Re-running the build is safe: each phase destroys and rebuilds only its own tagged actors (idempotency).
 - Validation is numeric, not just visual: phases assert positions, sizes, and consistency at runtime.
 
-The end goal is a digital-twin foundation for a ball-collecting robot: a perception camera, physics-based tennis balls, and a ROS 2 bridge. The current milestone is the complete, reproducible scene; perception and dynamics are documented under [Roadmap](#roadmap).
+The end goal is a digital-twin foundation for a ball-collecting robot: a perception camera, physics-based tennis balls, and a ROS 2 bridge.
 
 ## Technical Architecture
 
